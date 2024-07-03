@@ -9,4 +9,11 @@ router.put(
   }
 );
 
+router.delete(
+  "/register/:servicename/:serviceversion/:serviceport",
+  (req, res, next) => {
+    return next("Not implemented");
+  }
+);
+
 module.exports = router;
